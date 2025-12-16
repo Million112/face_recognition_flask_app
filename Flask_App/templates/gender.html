@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block bodyblock %}
+
+<div class = "container">
+    <div class =  "row">
+        <div class = "col">
+                <h3 class = "display-8">App nhận diện giới tính</h3>
+                <p>
+                    Thả ảnh của bạn vào đây để kiểm tra giới tính.
+                </p>
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <div class = "input-group">
+                        <input type="file" class="form-control" name="image_name" required>
+                        <input type="submit" value="Upload & Predict" class="btn btn-outline-primary">
+                    </div>
+                </form>    
+        </div>
+        <div class = "col">
+
+
+        </div>
+
+    </div>
+    
+</div>
+
+
+{% endblock %}
+
+
+
